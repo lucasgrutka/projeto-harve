@@ -1,0 +1,209 @@
+*{ 
+     margin: 01px;
+     padding: 0;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+}
+body{
+     background-repeat: round;
+     background-image: url(  https://images.unsplash.com/photo-1556388275-bb5585725aca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c21va2V8ZW58MHx8MHx8&w=1000&q=80)
+}
+header li{
+     background-color: transparent;
+     color: aliceblue;
+     margin: 15px;
+     list-style-type: none;
+    
+}
+#logo{
+    text-align: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    border-radius: 4px;
+}
+ul{
+     display: inline-flex;
+     float: right;
+     background-color: transparent;
+ 
+}
+.cabecario{
+     background-color: transparent;
+     text-decoration: none;
+     color: aliceblue;
+}
+.preto{
+     color: transparent;
+     text-decoration: none;
+     font-size: 35px;
+}
+.preto:hover{
+     cursor: pointer;
+     color: rgb(255, 255, 255);
+     text-shadow: 0px -1px 10px  black;
+}
+.cabecario:hover{
+     cursor: pointer;
+     color: aqua;
+     text-shadow: 0px 0px 5px  aqua;
+
+}
+header{
+     width: 100%;
+     align-items: left;
+     text-align: initial;
+     background-color: transparent;
+     justify-content: center;
+}
+#cabeça{
+     display: flex;
+     height: 50px;
+     align-items: center;
+     width: 70%;
+     margin: auto;
+     background-color:transparent;
+}
+.sec{
+     opacity: 0.9;
+     margin: auto;
+     display:inline-flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     height: auto;
+     width:70%;
+     background-color: rgb(183, 185, 185);
+     justify-content: center;
+     padding:19px 0px 18px 0px;
+     border-radius: 1000px;
+     margin-bottom: 15px;
+  }
+.sec1{
+     display:inline-flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     height: auto;
+     width:70%;
+     background-color: transparent;
+     justify-content: center;
+     border-radius: 50px;
+     background-color:transparent;
+     opacity: 0.9;
+     height: 300px;
+  }
+.div{   
+     display:flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     padding: 5px;
+     padding-top: 20px;
+     width: 25%;
+     border-radius: 20%;
+     background-color: transparent;
+     align-items: center;
+     justify-content: center;
+     
+}
+.div1{
+     display:flex;
+     flex-wrap: wrap;
+     margin: 10px;
+     flex-direction: column;
+     width: 30.33%;
+     border-radius: 200px;
+     background-color: rgb(183, 185, 185);
+     align-items: center;
+     justify-content: center;
+
+}
+#divi2{
+     align-self: baseline;
+}
+#divi4{
+    align-self: baseline;
+}
+#divi5{
+     background-size: 300px;
+     background-image: url(https://i.pinimg.com/originals/77/68/75/776875b02ee5571c202ae0c9edba2e26.jpg);
+}
+#divi6{
+     background-image: url(https://cdn.awsli.com.br/1000x1000/744/744459/produto/125101237/febadfe9f4.jpg);
+     background-size: 400px;
+}
+#divi7{
+     background-size: 270px;
+     background-image: url(http://images.tcdn.com.br/img/img_prod/421417/caixa_de_folhas_de_aluminio_para_narguile_stan_hookah_grosso_30_micras_15cm_corte_quadrado_caixa_com_67_1_48ee3f212a66a304d7d71026ddae7ec4.jpg);
+}
+.imagenredonda{
+     width: 150px;
+     height: 150px;
+     border-style: groove;
+     border-color: rgb(69, 78, 202);
+     border-radius: 200px;
+     padding: 1px; 
+     box-shadow: 3px 3px 5px;
+     
+}
+.titulo1 {
+     background-color: transparent;
+}
+.titulo{
+
+     width:auto;
+     background-color: transparent;
+     font-style:italic;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texto{
+     list-style: none;
+     background-color: transparent;
+}
+#imagen{
+     width: 150px;
+     height: 150px;
+     border-style: none;
+     border-radius: 15px;
+     padding: 1px;
+     box-shadow: 0px 0px 3px;                               
+ 
+}
+#imagen:hover{
+   scale: 1.2;
+   box-shadow: 0px 0px 15px 6px;
+
+}
+#imagen1{
+     width: 350px;
+     height: 250px;
+     padding: 1px;
+     border-radius: 10%;
+     border-style: none;
+     box-shadow: 0px 0px 3px;                               
+}
+p{
+background-color: transparent;   
+}
+#bot{
+     margin-top: 30px;
+     padding: 5px;
+     color: aliceblue;
+     background-color: rgb(103, 103, 235);
+     border-radius: 10px;
+     
+}
+#bot:hover{
+     scale: 1.1;
+     color: aqua;
+     box-shadow: 0px 0px 10px 10px;
+}
+input{
+    background-color: transparent;
+}
+@media screen and ( max-width:1050px )  {
+ .div{
+  width: 40%;
+ }
+ .div1{
+  width: 50%;
+ }  
+}

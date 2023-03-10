@@ -1,0 +1,78 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-repeat: round;
+  background-image: url(  https://images.unsplash.com/photo-1556388275-bb5585725aca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c21va2V8ZW58MHx8MHx8&w=1000&q=80)
+}
+header li{
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  margin: 15px;
+  list-style-type: none;
+ 
+}
+#logo{
+ text-align: center;
+ align-items: center;
+ width: 70px;
+ height: 50px;
+ border-radius: 4px;
+}
+ul{
+  display: inline-flex;
+  float: right;
+  background-color: transparent;
+}
+.cabecario{
+
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(248, 248, 248);
+}
+.cabecario:hover{
+  cursor: pointer;
+  color: aqua;
+  text-shadow: 0px 0px 5px  aqua;
+}
+header{
+  width: 100%;
+  align-items: left;
+  text-align: initial;
+  background-color: transparent;
+  justify-content: center;
+}
+#cabeça{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  background-color:transparent;
+}
+.produto {  
+  float: left;
+  margin: 30px;
+  width: 23%;
+  text-align: center;
+  }
+.produto img {
+  border-radius: 250px;
+  width: 98%;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+#produtos{
+  color: aliceblue;
+  align-items: center;
+  justify-content: center ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  height: auto;
+}
